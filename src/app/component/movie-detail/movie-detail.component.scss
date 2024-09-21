@@ -1,0 +1,22 @@
+.baner{
+    height: calc(100vh - 76px);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    .caption{
+        position: absolute;
+        top:45%;
+        left:2%;
+        h2{
+            font-size: 3rem;
+            text-shadow: 8px 16px 22px;
+            color: aliceblue;
+        }
+    }
+}
+
+.trailer{
+    cursor: pointer;
+}
